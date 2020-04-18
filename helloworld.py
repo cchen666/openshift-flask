@@ -9,7 +9,7 @@ Created on 04-Sep-2019
 """
 hello_flask: First Python-Flask webapp
 """
-from flask import Flask  # From module flask import class Flask
+from flask import Flask, render_template  # From module flask import class Flask
 app = Flask(__name__)    # Construct an instance of Flask class for our webapp
 
 @app.route('/')   # URL '/' to be handled by main() route handler
