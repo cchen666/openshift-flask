@@ -18,7 +18,7 @@ def main():
     return render_template("index.html")
 
 @app.route("/cchen")
-def yanwei():
+def msg_to_cchen():
     return "Hello, Chen"
 
 if __name__ == '__main__':  # Script executed directly?
